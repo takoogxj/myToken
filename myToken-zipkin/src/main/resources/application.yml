@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8888
+      name: myToken-zipkin
+      label: master
+      profile: dev
